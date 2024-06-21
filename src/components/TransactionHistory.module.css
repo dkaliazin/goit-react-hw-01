@@ -1,0 +1,31 @@
+.table {
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  font-weight: 400;
+  border-collapse: collapse;
+}
+.header {
+  background-color: rgb(21, 19, 32);
+  border: rgb(0, 0, 0);
+}
+.headertext {
+  font-size: 16px;
+  font-weight: 800;
+  color: white;
+  padding: 5px;
+  border: 1px solid black;
+}
+.th {
+  border: 1px solid black;
+}
+.td {
+  border: 1px solid black;
+}
+.tr:nth-child(even) {
+  background-color: white;
+}
+.tr:nth-child(odd) {
+  background-color: lightgrey;
+}

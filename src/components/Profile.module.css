@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid black;
+  border-radius: 10px;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.userbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.username {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: 15px;
+}
+.usrtext {
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+  color: grey;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.ul {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100px;
+  background-color: lightgray;
+}
+.li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-top: 2px solid grey;
+  border-right: 2px solid grey;
+  font-size: 25px;
+  line-height: 1.5;
+}
+.ul li:last-child {
+  border-right: 0;
+}
+.stats {
+  font-weight: bold;
+}

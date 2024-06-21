@@ -4,6 +4,11 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import userData from "./UserData.json";
 import Profile from "./Profile.jsx"
+import FriendList from './FriendList.jsx';
+import friends from "./friends.json";
+import "modern-normalize";
+import TransactionHistory from './TransactionHistory.jsx';
+import transactions from "./transactions.json";
 export default function App() {
   return (
     <>
@@ -12,8 +17,9 @@ export default function App() {
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
-        stats={userData.stats}
-      />
+        stats={userData.stats} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
